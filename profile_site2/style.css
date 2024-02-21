@@ -1,0 +1,132 @@
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* 以下、header */
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 130px;
+}
+
+h1 {
+  font-size: 34px;
+  border: 1px solid black;
+  margin: 0;
+  padding: 0 20px;
+}
+
+/* ナビゲーション */
+
+#navi > a {
+  font-size: 34px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+#navi > a:link {
+  color: black;
+}
+
+#navi > a:active {
+  color: black;
+}
+
+#navi > a:visited {
+  color: black;
+}
+
+#navi > a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/* メインビジュアル */
+#main-visual > img {
+  width: 100%;
+  height: auto;
+}
+
+/* メインコンテンツ */
+/* 共通 */
+.main-content {
+  font-size: 34px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* about me */
+#profile-div {
+  display: flex;
+  justify-content: center;
+}
+
+/* about me 画像 */
+#profile-img {
+  border-radius: 50%;
+  width: 141px;
+  height: 142px;
+  margin-top: 10px;
+}
+
+/* about me　紹介文 */
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 15px 0;
+}
+
+#about-me {
+  padding-left: 30px;
+}
+
+#profile-details {
+  margin-left: 40px;
+}
+
+/* works 画像 */
+#works-img {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 250px;
+  padding: 0;
+}
+
+.works-img div {
+  width: 30%;
+}
+
+.works-img img {
+  width: 100%;
+}
+
+.works-img>div>p {
+text-align: center;
+}
+/* footer */
+#copy-rights {
+  text-align: center;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 767px) {
+
+
+  /* sp用　works  */
+  #works-img {
+    display: block;
+    margin: 0;
+  }
+
+  .works-img div {
+    margin: 0 45px 35px 45px;
+    width: auto;
+  }
+
+  .works-img img {
+    width: 100%;
+  }
+
+}
