@@ -1,22 +1,26 @@
 body {
-  max-width: 1200px;
   margin: 0 auto;
 }
+
 /* 以下、header */
 header {
   display: flex;
   justify-content: space-between;
-  margin: 20px 130px;
+  margin: 20px;
+  flex-wrap: wrap;
 }
 
 h1 {
   font-size: 34px;
   border: 1px solid black;
-  margin: 0;
+  margin: 0 0 0 80px;
   padding: 0 20px;
 }
 
 /* ナビゲーション */
+#navi {
+  margin: 0 80px 0 0;
+}
 
 #navi > a {
   font-size: 34px;
@@ -60,13 +64,14 @@ h1 {
 #profile-div {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 /* about me 画像 */
 #profile-img {
   border-radius: 50%;
-  width: 141px;
-  height: 142px;
+  width: 200px;
+  height: 200px;
   margin-top: 10px;
 }
 
@@ -83,14 +88,14 @@ h3 {
 }
 
 #profile-details {
-  margin-left: 40px;
+  margin:40px 40px 0 40px;
 }
 
 /* works 画像 */
 #works-img {
   display: flex;
   justify-content: space-around;
-  margin: 0 250px;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -106,6 +111,7 @@ h3 {
 text-align: center;
 }
 /* footer */
+
 #copy-rights {
   text-align: center;
   font-size: 18px;
@@ -117,7 +123,7 @@ text-align: center;
   /* sp用　works  */
   #works-img {
     display: block;
-    margin: 0;
+    margin: 0 auto;
   }
 
   .works-img div {
