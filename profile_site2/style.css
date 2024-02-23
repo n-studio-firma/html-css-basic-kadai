@@ -1,12 +1,9 @@
-body {
-  margin: 0 auto;
-}
-
 /* 以下、header */
 header {
+  max-width: 1200px;
   display: flex;
   justify-content: space-between;
-  margin: 20px;
+  margin: 20px auto;
   flex-wrap: wrap;
 }
 
@@ -61,6 +58,11 @@ h1 {
 }
 
 /* about me */
+#about {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 #profile-div {
   display: flex;
   justify-content: center;
@@ -73,6 +75,7 @@ h1 {
   width: 200px;
   height: 200px;
   margin-top: 10px;
+  
 }
 
 /* about me　紹介文 */
@@ -92,6 +95,11 @@ h3 {
 }
 
 /* works 画像 */
+#works {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 #works-img {
   display: flex;
   justify-content: space-around;
@@ -111,6 +119,9 @@ h3 {
 text-align: center;
 }
 /* footer */
+footer {
+  max-width: 1200px;
+}
 
 #copy-rights {
   text-align: center;
